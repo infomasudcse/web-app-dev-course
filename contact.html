@@ -9,14 +9,37 @@
 
 
     <form class="" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="get">
+      <label for="name">Name: </label>
+      <input type="text" name="name" value=""> <br/>
 
-      Name : <input type="text" name="name" value=""> <br/>
+      <label for="email">Email: </label>
+      <input type="email" name="email" value=""> <br>
 
-      Email: <input type="email" name="email" value=""> <br>
+      <label for="phone-number">Phone Number </label> <input type="number" name="phone-number" value=""> <br>
 
-      Phone Number : <input type="number" name="phone-number" value=""> <br>
+      <label for="password">Password : </label> <input type="password" name="password" value=""><br/>
 
-      Password : <input type="password" name="password" value="">
+      </br/>
+      <h4>Your Hobbies</h4>
+
+    <input type="checkbox" name="hobby" value="">
+    <label for="reading">Reading</label><br>
+
+    <input type="checkbox" name="hobby" value="" id="music">
+    <label for="music">Music</label><br>
+
+    <input type="checkbox" name="hobby" value="">
+    <label for="yoga">Yoga</label><br>
+
+
+<br/>
+
+</br/>
+
+
+      <label for="message">Message</label><br>
+      <textarea name="message" rows="8" cols="80"></textarea><br/>
+
 
       <input type="submit" name="submit" value="submit">
 
