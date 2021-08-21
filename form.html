@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Order Pizza</title>
+  </head>
+  <body>
+    <div class="header">
+        <img src="img/pizza.jpg" />
+    </div>
+
+    <div class="order">
+      <h1>Pizza Order</h1>
+        <form class="order-form" action="index.html" method="post">
+            <fieldset>
+                  <legend>Pizza Type</legend>
+                  <h3>Choose Size</h3>
+                  <input type="radio" name="size" id="kids" />
+                  <label for="kids">Kids 7"</label>
+                  <input type="radio" name="size" id="small" />
+                  <label for="small">Small 9"</label>
+                  <input type="radio" name="size" id="medium" />
+                  <label for="medium">Medium 11""</label>
+                  <input type="radio" name="size" id="large" />
+                  <label for="large">Large 15"</label>
+                  <h3>Choose Base</h3>
+                  <input type="radio" name="base" id="thin" />
+                  <label for="thin">Thin Base</label>
+                  <input type="radio" name="base" id="thick" />
+                  <label for="thick">Thick Base</label>
+                    <br />
+                    <br>
+            </fieldset>
+            <fieldset>
+                  <legend>Pizza Toppings</legend>
+                  <h3>Meat</h3>
+                  <input type="radio" name="bacon" id="bacon" />
+                  <label for="bacon">Bacon</label>
+                  <input type="radio" name="pepperoni" id="pepperoni" />
+                  <label for="pepperoni">Pepperoni</label>
+                  <input type="radio" name="chicken" id="chicken" />
+                  <label for="chicken">Chicken</label>
+                  <br />
+                  <input type="radio" name="salami" id="salami" />
+                  <label for="salami">Salami</label>
+                  <input type="radio" name="ham" id="ham" />
+                  <label for="ham">Ham</label>
+                  <input type="radio" name="meatballs" id="meatballs" />
+                  <label for="meatballs">Meatballs</label>
+
+                  <h3>Vegetables</h3>
+                  <input type="radio" name="tomatos" id="tomatos" />
+                  <label for="tomatos">Tomatos</label>
+                  <input type="radio" name="onion" id="onion" />
+                  <label for="onion">Onion</label>
+                  <input type="radio" name="chilli" id="chilli" />
+                  <label for="chilli">Chilli</label>
+                  <input type="radio" name="mashroom" id="mashroom" />
+                  <label for="mashroom">Mashroom</label>
+                    <br />
+                  <input type="radio" name="pickles" id="pickles" />
+                  <label for="ham">Pickles</label>
+                  <input type="radio" name="sweetcorn" id="sweetcorn" />
+                  <label for="sweetcorn">Sweetcorn</label>
+                  <input type="radio" name="pepper" id="pepper" />
+                  <label for="pepper">Pepper</label>
+                  <input type="radio" name="pineapple" id="pineapple" />
+                  <label for="pineapple">Pineapple</label>
+                    <br />
+                    <br>
+            </fieldset>
+            <fieldset>
+                  <legend>Details</legend>
+                  <h3>All fields are required to submit your order</h3>
+                  <table>
+                    <tr>
+                      <td>First Name :</td>
+                      <td><input type="text" name="" value=""></td>
+                      </tr>
+                      <tr>
+                        <td>Last Name :</td>
+                        <td><input type="text" name="" value=""></td>
+                      </tr>
+                      <tr>
+                          <td>Email Address :</td>
+                          <td><input type="text" name="" value=""></td>
+                      </tr>
+                      <tr>
+                          <td>Phone Number :</td>
+                          <td><input type="text" name="" value=""></td>
+                      </tr>
+                      <tr>
+                          <td>Adress :</td>
+                          <td><textarea type="text" name="" value=""></textarea></td>
+                      </tr>
+                      <tr>
+                          <td>Delivery Time :</td>
+                          <td>
+                            <select class="" name="">
+                              <option value="">Eat In</option>
+                              <option value="">Take away</option>
+                              <option value="">Delivery</option>
+                          </select>
+                        </td>
+                      </tr>
+                  </table>
+                  <br>
+            </fieldset>
+            <fieldset>
+                  <legend>Payment</legend>
+                  <table>
+                    <tr>
+                        <td>
+                          <input type="radio" name="onarrive" /><label for="onarrive">Pay On Arrive</label>
+                        </td>
+                        <td>
+                          <input type="radio" name="now" /><label for="now">Pay Now</label>
+                        </td>
+                    </tr>
+                  </table>
+                  <br>
+                  <table>
+                    <tr>
+                      <td>Card Number</td>
+                      <td><input type="text" name="" value=""></td>
+                    </tr>
+                    <tr>
+                      <td>Expiry Date</td>
+                      <td><input type="text" name="" value=""></td>
+                    </tr>
+                    <tr>
+                      <td>SVV</td>
+                      <td><input type="text" name="" value=""></td>
+                    </tr>
+                  </table>
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" name="sumit" value="submit">
+            <br>
+        </form>
+    </div>
+
+
+  </body>
+</html>
